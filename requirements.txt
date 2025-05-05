@@ -1,0 +1,24 @@
+# Core libraries
+httpx>=0.27.0
+lxml>=5.2.0
+pydantic>=2.7.0
+python-dotenv>=1.0.0
+
+# LangChain stack
+langchain>=0.2.0
+langgraph>=0.0.55 # Check for latest stable release
+langchain-openai>=0.1.8
+
+# CLI
+typer[all]>=0.12.0
+rich>=13.7.0
+
+# Testing (Core)
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# --- Development/Optional Dependencies ---
+# Install manually via: pip install ruff pytest-httpx
+# ruff>=0.4.0 # For linting/formatting
+# pytest-httpx>=0.28.0 # For mocking HTTP calls in tests
+# pip-tools # Optional: For locking dependencies (pip-compile requirements.txt > requirements.lock)
